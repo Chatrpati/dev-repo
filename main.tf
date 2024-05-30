@@ -1,19 +1,6 @@
 provider "aws" {
-  region = "ap-south-1"
-  alias = "south"
-  
-}
-
-provider "aws" {
-  region = "us-east-1"
-  alias  = "east"
-  # ... other configuration ...
-}
-
-provider "aws" {
-  region = "us-west-1"
-  alias  = "west"
-  # ... other configuration ...
+  alias  = "usw2"
+  region = "us-west-2"
 }
 
 
